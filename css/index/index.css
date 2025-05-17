@@ -135,7 +135,7 @@
     width: 100%;
     min-height: 200px;
 
-    background-image: url(../../media/Diseño/Screenshot_20250516_180802_One\ Read.jpg);
+    background-image: url(../../media/Diseño/fondo_description.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: start;
@@ -166,4 +166,32 @@
 .imagen_des {
     border-radius: 5px;
     box-shadow: 0 0 10px 0 #fcff5f3a;
+}
+
+/* Section Presentaciones */
+.section__presentaciones {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion__foto_persona {
+    width: 100%;
+    min-height: 60px;
+}
+
+.presentacion__texto_persona {
+    width: 100%;
+    background-color: #00000075;
+    color: #fff;
+    padding: 40px 10px;
+    background-color: rgba(0, 0, 0, 0.493);
+    backdrop-filter: blur(2px);
 }
