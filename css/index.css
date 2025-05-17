@@ -76,6 +76,15 @@
     text-shadow: 0 0 6px #ffffff27;
 }
 
+.smooth__ola h3 {
+    font-size: 2.5rem;
+    position: absolute;
+    z-index: 100;
+    color: rgb(253, 190, 14);
+    font-family: 'ginebra';
+    text-shadow: 0 0 6px #ffffff27;
+}
+
 .smooth__ola p {
     font-size: 1.4rem;
     letter-spacing: 1px;
@@ -135,7 +144,7 @@
 .section__description--description {
     background-color: #00000091;
     padding: 16px;
-    margin: 16px 8px;
+    margin: 16px 8px 85px;
     border-radius: 12px;
 }
 
@@ -144,4 +153,21 @@
     font-size: 1.1rem;
     text-align: justify;
     text-shadow: 0 0 8px #000;
+}
+
+/* --- Presentaciones --- */
+.section__presentacion {
+    width: 100%;
+    min-height: 600px;
+}
+
+.section__presentacion__container {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top top;
 }
