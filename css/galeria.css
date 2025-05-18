@@ -69,6 +69,9 @@
     justify-content: center;
     backdrop-filter: blur(2px);
     background-color: #000000b7;
+    min-width: 60px;
+    min-height: 60px;
+    color: #fff;
 }
 
 .section_galeria__list--item img {
