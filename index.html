@@ -10,10 +10,30 @@
     <link rel="stylesheet" href="css/estilos_universales.css">
     <link rel="stylesheet" href="css/index.css">
     <!-- Codigo JavaScript -->
+    <script src="js/menu_desplegable.js" defer></script>
 </head>
 <body>
     <!-- Contenedor Principal -->
     <div class="contenedor_principal">
+        <!-- Menu Desplegable -->
+        <div id="menu_deplegable">
+            <div class="menu_deplegable__container">
+                <div class="menu_deplegable__logo">
+                    <img src="media/diseño/logo/logo.png" alt="Logo">
+                </div>
+                <ul class="menu_deplegable__list">
+                    <li class="menu_deplegable__list--item"><a href="index.html"><div class="mdl_icono"><img src="media/diseño/iconos/inicio.svg" alt=""></div>Home</a></li>
+                    <li class="menu_deplegable__list--item"><a href="pages/galeria.html"><div class="mdl_icono"><img src="media/diseño/iconos/galeria.svg" alt=""></div>Gallery</a></li>
+                    <li class="menu_deplegable__list--item"><a href="#"><div class="mdl_icono"><img src="media/diseño/iconos/musica.svg" alt=""></div>Repertory</a></li>
+                    <li class="menu_deplegable__list--item"><a href="#"><div class="mdl_icono"><img src="media/diseño/iconos/evento.svg" alt=""></div>Events</a></li>
+                    <li class="menu_deplegable__list--item"><a href="#"><div class="mdl_icono"><img src="media/diseño/iconos/contacto.svg" alt=""></div>Contact</a></li>
+                </ul>
+                <p class="mnd-copy">&copy; Copyright: Todos los derechos recervados Royal Soul 2025.</p>
+            </div>
+            <div onclick="cerrar_menu_desplegable()" class="menu_deplegable_cerrar">
+                
+            </div>
+        </div>
         <!-- Header -->
         <header class="header">
             <div class="header__container">
@@ -27,7 +47,7 @@
                     </div>
                     <!-- Menu Desplegable -->
                     <div class="header__menu">
-                        <button id="menu_desplegable"><img src="media/diseño/iconos/menu.svg" alt="Menu Desplegable"></button>
+                        <button onclick="abrir_menu_desplegable()" id="boton_menu_desplegable"><img src="media/diseño/iconos/menu.svg" alt="Menu Desplegable"></button>
                     </div>
                 </div>
                 <!-- Smooth -->
@@ -118,8 +138,25 @@
                 <!-- Section Presentacion -->
                 <section class="section__presentacion">
                     <div class="section__presentacion__container" style="background-image: radial-gradient(rgba(0, 30, 138, 0.527), rgba(1, 4, 59, 0.87)), url(media/index/gretta.jpg);">
+                        <div class="section__presentacion__container--filter"></div>
                         <div class="section__presentacion--img">
-
+                            <img src="media/index/gretta.jpg" alt="">
+                        </div>
+                        <div class="section__presentacion--p">
+                            <p>With a voice that caresses you from the very first
+                                note, Gretta enchants her audience with boundless
+                                warmth and versatility. Trained as a lyric singer at
+                                the Holguín Conservatory of Music, her expansive
+                                repertoire spans classic boleros to sophisticated
+                                takes on soul, R&B, funk, pop and jazz each
+                                performance colored by her profound interpretive
+                                sensitivity. She’s dazzled audiences in Cuba, China,
+                                Mexico, and Egypt—her commanding stage presence
+                                and uncanny ability to connect with every listener
+                                turn each show into an intimate, unforgettable
+                                experience. Gretta doesn’t just sing: she weaves
+                                atmospheres, stirs emotions, and transforms every
+                                song into a unique, magical mome nt .</p>
                         </div>
                     </div>
                 </section>
@@ -140,8 +177,25 @@
                 <!-- Section Presentacion -->
                 <section class="section__presentacion">
                     <div class="section__presentacion__container" style="background-image: radial-gradient(rgba(0, 30, 138, 0.527), rgba(1, 4, 59, 0.87)), url(media/index/manny.jpg);">
+                        <div class="section__presentacion__container--filter"></div>
                         <div class="section__presentacion--img">
-
+                            <img src="media/index/manny.jpg" alt="">
+                        </div>
+                        <div class="section__presentacion--p">
+                            <p>Manny is the invisible architect behind every
+                                melody, breathing life into piano and guitar
+                                with equal measures of passion and precision.
+                                A graduate of the José White Conservatory in
+                                Camagüey, he’s lent his talent to luxury hotels
+                                across Russia, China, Mexico, and Cuba,
+                                weaving together jazz, bossa nova, funk, and
+                                contemporary pop. His gift for improvisation
+                                and reinventing beloved tunes makes every
+                                performance an unpredictable, thrilling sonic
+                                journey. With Manny at the keys or strings,
+                                music doesn’t just play—it breathes, grows,
+                                and transports listeners to unforgettable
+                                soundscapes.</p>
                         </div>
                     </div>
                 </section>

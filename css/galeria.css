@@ -1,0 +1,40 @@
+/* --- Galeria --- */
+.section_galeria {
+    width: 100%;
+
+    background-image: radial-gradient(rgba(0, 30, 138, 0.527), rgb(1,4,59)), url(../media/index/IMG-20250514-WA0003.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_galeria__container {
+    width: 100%;
+    min-height: 100svh;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+
+   
+
+    padding-bottom: 100px;
+    padding-top: 80px;
+
+}
+
+.section_galeria h2 {
+    margin-top: 80px;
+
+    font-size: 2rem;
+    z-index: 100;
+    color: rgb(253, 190, 14);
+    font-family: 'ginebra';
+    text-shadow: 0 0 6px #ffffff27;
+    user-select: none;
+}

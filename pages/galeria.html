@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manuel Del Rio Socorro">
+    <link rel="shortcut icon" href="../media/diseño/logo/favicoin.png" type="image/x-icon">
+    <title>Royal Soul</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilos_universales.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <!-- Codigo JavaScript -->
+    <script src="../js/menu_desplegable.js" defer></script>
+    <script src="../js/galeria.js" defer></script>
+</head>
+<body>
+    <!-- Contenedor Principal -->
+    <div class="contenedor_principal">
+        <!-- Menu Desplegable -->
+        <div id="menu_deplegable">
+            <div class="menu_deplegable__container">
+                <div class="menu_deplegable__logo">
+                    <img src="../media/diseño/logo/logo.png" alt="Logo">
+                </div>
+                <ul class="menu_deplegable__list">
+                    <li class="menu_deplegable__list--item"><a href="../index.html"><div class="mdl_icono"><img src="../media/diseño/iconos/inicio.svg" alt=""></div>Home</a></li>
+                    <li class="menu_deplegable__list--item"><a href="galeria.html"><div class="mdl_icono"><img src="../media/diseño/iconos/galeria.svg" alt=""></div>Gallery</a></li>
+                    <li class="menu_deplegable__list--item"><a href="#"><div class="mdl_icono"><img src="../media/diseño/iconos/musica.svg" alt=""></div>Repertory</a></li>
+                    <li class="menu_deplegable__list--item"><a href="#"><div class="mdl_icono"><img src="../media/diseño/iconos/evento.svg" alt=""></div>Event</a></li>
+                    <li class="menu_deplegable__list--item"><a href="#"><div class="mdl_icono"><img src="../media/diseño/iconos/contacto.svg" alt=""></div>Contact</a></li>
+                </ul>
+                <p class="mnd-copy">&copy; Copyright: Todos los derechos recervados Royal Soul 2025.</p>
+            </div>
+            <div onclick="cerrar_menu_desplegable()" class="menu_deplegable_cerrar">
+                
+            </div>
+        </div>
+        <!-- Header -->
+        <header class="header">
+            <div class="header__container">
+                <!-- Barra de Navegacion -->
+                <div class="header__nav">
+                    <!-- Logo -->
+                    <div class="header__logo">
+                        <div class="header__logo--container">
+                            <img src="../media/diseño/logo/logo.png" alt="Logo">
+                        </div>
+                    </div>
+                    <!-- Menu Desplegable -->
+                    <div class="header__menu">
+                        <button onclick="abrir_menu_desplegable()" id="boton_menu_desplegable"><img src="../media/diseño/iconos/menu.svg" alt="Menu Desplegable"></button>
+                    </div>
+                </div>
+                <!-- Smooth -->
+                <div class="caja_smooth_techo">
+                    <div class="techo__smooth techo__smooth--back" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 430 155" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-12.59,96.22 C179.82,175.17 254.61,74.52 513.44,101.16 L508.39,165.30 L0.00,150.00 Z" style="stroke: none; fill: rgb(39, 116, 184);"></path></svg></div>
+                    <div class="techo__smooth techo__smooth--front" style="height: 180px; overflow: hidden;" ><svg viewBox="0 8 430 145" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-12.59,96.22 C179.82,175.17 254.61,74.52 513.44,101.16 L508.39,165.30 L0.00,150.00 Z" style="stroke: none; fill: rgb(9, 85, 151);"></path></svg></div>
+                    <div class="smooth_sombra"></div>
+                </div>
+            </div>
+        </header>
+        <!-- Main -->
+        <main class="main">
+            <div class="main__container">
+                <!-- Section Galeria -->
+                <section class="section_galeria">
+                    <h2>Gallery</h2>                     
+                    <div class="section_galeria__container">   
+                       
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Smooth -->
+            <div class="caja_smooth_suelo">
+                <div class="suelo__smooth suelo__smooth--back" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 430 155" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-12.59,96.22 C179.82,175.17 254.61,74.52 513.44,101.16 L508.39,165.30 L0.00,150.00 Z" style="stroke: none; fill: rgb(39, 116, 184);"></path></svg></div>
+                <div class="suelo__smooth" style="height: 180px; overflow: hidden;" ><svg viewBox="0 8 430 145" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-12.59,96.22 C179.82,175.17 254.61,74.52 513.44,101.16 L508.39,165.30 L0.00,150.00 Z" style="stroke: none; fill: rgb(9, 85, 151);"></path></svg></div>
+                <div class="smooth_sombra"></div>
+            </div>
+            <div class="footer__container">
+                <p class="footer_copy">&copy; Copyright: Todos los derechos recervados Royal Soul 2025.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
