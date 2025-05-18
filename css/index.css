@@ -146,9 +146,8 @@
 /* Texto */
 .section__description--description {
     background-color: #00000091;
-    padding: 16px;
-    margin: 16px 8px 85px;
-    border-radius: 12px;
+    padding: 16px 16px 100px;
+    margin: 16px 0px 0px;
 }
 
 .section__description--description p {
